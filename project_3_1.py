@@ -9,9 +9,15 @@ def collatz(number):
     else:
         print (3 * number + 1)
         return 3 * number + 1
+try:
     
-num = input("Enter a number: ")
-num = int(num)
-while collatz(num) != 1:
-    num = int(input ("Re-enter a number : "))
+    num = input("Enter a number: ")
+    num = int(num)
+    while collatz(num) != 1:
+        num = int(input ("Re-enter a number : "))
+except:
+
+    print("You must enter an integer")
+
+
     
