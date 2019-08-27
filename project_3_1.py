@@ -9,6 +9,10 @@ def collatz(number):
     else:
         print (3 * number + 1)
         return 3 * number + 1
+    
+    
+    ''' This example implement the try and exception clause'''
+    
 try:
     
     num = input("Enter a number: ")
